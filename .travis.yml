@@ -4,6 +4,7 @@ cache: packages
 
 r_packages:
   - babette
+  - remotes
   - txtplot
 
 before_install:
@@ -22,6 +23,6 @@ before_script:
   - Rscript -e 'mauricer::install_beast2_pkg("NS")'
 
 script:
-  - Rscript -e 'devtools::install_github("richelbilderbeek/mcbette")'
+  - Rscript -e 'remotes::install_github("richelbilderbeek/mcbette")'
   - travis_wait 120 Rscript scripts/run.R
 
