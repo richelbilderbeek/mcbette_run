@@ -25,11 +25,11 @@ if (can_run_mcbette()) {
   )
 
   # Show all models
-  cat(" ")
-  cat("**********************************")
-  cat("* All models (ordered by index)  *")
-  cat("**********************************")
-  cat(" ")
+  cat(" ", sep = "\n")
+  cat("**********************************", sep = "\n")
+  cat("* All models (ordered by index)  *", sep = "\n")
+  cat("**********************************", sep = "\n")
+  cat(" ", sep = "\n")
   knitr::kable(df)
 
   ################################################################################
@@ -42,15 +42,15 @@ if (can_run_mcbette()) {
   df_ordered <- df_ordered[ order(-df_ordered$weight), ]
 
   # Show most convincing first
-  cat(" ")
-  cat("**********************************")
-  cat("* All models (ordered by weight) *")
-  cat("**********************************")
-  cat(" ")
+  cat(" ", sep = "\n")
+  cat("**********************************", sep = "\n")
+  cat("* All models (ordered by weight) *", sep = "\n")
+  cat("**********************************", sep = "\n")
+  cat(" ", sep = "\n")
   knitr::kable(df_ordered)
 
   # Show weights
-  cat(" ")
+  cat(" ", sep = "\n")
   txtplot::txtplot(x = seq(1, length(df_ordered$weight)), y = df_ordered$weight)
 
   ################################################################################
@@ -59,11 +59,11 @@ if (can_run_mcbette()) {
   # Show the best model
   best_row_index <- which(df_ordered$marg_log_lik == max(df_ordered$marg_log_lik))
   df_best <- df_ordered[best_row_index, ]
-  cat(" ")
-  cat("**********************************")
-  cat("* Best model:                    *")
-  cat("**********************************")
-  cat(" ")
+  cat(" ", sep = "\n")
+  cat("**********************************", sep = "\n")
+  cat("* Best model:                    *", sep = "\n")
+  cat("**********************************", sep = "\n")
+  cat(" ", sep = "\n")
   knitr::kable(df_best, row.names = FALSE)
 
 }
