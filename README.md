@@ -1,6 +1,11 @@
-# mcbette_run
+# `mcbette_run`
 
-Do a Bayesian phylogenetic model comparison using mcbette
+Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)
+---------|--------------------------------------------------------------------------------------------------------------------------------------------
+`master` |[![Build Status](https://travis-ci.org/richelbilderbeek/mcbette_run.svg?branch=master)](https://travis-ci.org/richelbilderbeek/mcbette_run) 
+`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/mcbette_run.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/mcbette_run)
+
+Run a Bayesian phylogenetic model comparison using [mcbette](https://github.com/richelbilderbeek/mcbette).
 
 ## What is `mcbette_run`?
 
