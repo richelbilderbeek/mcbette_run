@@ -6,9 +6,23 @@ if (can_run_mcbette()) {
   testit::assert(mauricer::is_beast2_ns_pkg_installed())
 
   fasta_filename <- "my_alignment.fas"
-
   # mcbette will check if FASTA file exists
-  df <- mcbette::est_marg_liks(fasta_filename)
+
+  # Create two inference models
+  inference_model_1 <- create_inference_model(
+    site_model = create_jc69_site_model(),
+    mcmc = create_ns_mcmc(epsilon = 1e7)
+  )
+  inference_model_2 <- create_inference_model(
+    site_model = create_hky_site_model(),
+    mcmc = create_ns_mcmc(epsilon = 1e7)
+  )
+  inference_models <- list(inference_model_1, inference_model_2)
+
+  df <- mcbette::est_marg_liks(
+    fasta_filename = fasta_filename,
+    inference_models = inference_models
+  )
 
   # Show all models
   cat(" ")
