@@ -29,7 +29,7 @@ You can
 
 `mcbette_run` starts from an alignment:
 
-![A DNA alignment](man/figures/alignment.png)
+![A DNA alignment](pics/alignment.png)
 
 `mcbette_run` estimates the evidence (also known as marginal likelihood)
 of each model.
@@ -152,7 +152,7 @@ See [FAQ](doc/faq.md)
 
 ## Package dependencies
 
-Package                                         |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)                                                 |[![Codecov logo](man/figures/Codecov.png)](https://www.codecov.io)
+Package                                         |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)                                                 |[![Codecov logo](pics/Codecov.png)](https://www.codecov.io)
 ------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------
 [babette](https://github.com/ropensci/babette)  |[![Build Status](https://travis-ci.org/ropensci/babette.svg?branch=master)](https://travis-ci.org/ropensci/babette)  |[![codecov.io](https://codecov.io/github/ropensci/babette/coverage.svg?branch=master)](https://codecov.io/github/ropensci/babette/branch/master)
 [beautier](https://github.com/ropensci/beautier)|[![Build Status](https://travis-ci.org/ropensci/beautier.svg?branch=master)](https://travis-ci.org/ropensci/beautier)|[![codecov.io](https://codecov.io/github/ropensci/beautier/coverage.svg?branch=master)](https://codecov.io/github/ropensci/beautier/branch/master)
