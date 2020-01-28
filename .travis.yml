@@ -3,6 +3,7 @@ dist: bionic
 cache: packages
 
 r_packages:
+  - babette
   - txtplot
 
 before_install:
@@ -15,7 +16,6 @@ before_install:
   # Java
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then R CMD javareconf; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then R --quiet -e 'install.packages("rJava", type="source", repos="http://cran.us.r-project.org")'; fi
-
 
 before_script:
   - Rscript -e "beastier::install_beast2()"
