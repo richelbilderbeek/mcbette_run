@@ -22,6 +22,6 @@ before_script:
   - Rscript -e 'mauricer::install_beast2_pkg("NS")'
 
 script:
-  - Rscript -e 'devtools::install_github("richelbilderbeek/mcbette")
+  - Rscript -e 'devtools::install_github("richelbilderbeek/mcbette")'
   - travis_wait 120 Rscript scripts/run.R
 
