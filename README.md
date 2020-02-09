@@ -155,6 +155,19 @@ But it does go neck-to-neck with another model combination (HKY, strict, CEP).
 
 See [FAQ](doc/faq.md)
 
+## Troubleshooting
+
+### My run takes longer than one hour
+
+Travis CI gives you one hour of computation time. 
+
+If your alignment needs more time, one can:
+
+ * get [a Travis CI paid plan](https://travis-ci.com/plans)
+ * use less different site, clock and/or tree models
+ * use a shorter alignment
+ * use an alignment with less taxa
+
 ## Package dependencies
 
 Package                                         |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)                                                 |[![Codecov logo](pics/Codecov.png)](https://www.codecov.io)
