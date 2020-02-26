@@ -1,4 +1,5 @@
 library(mcbette)
+library(beautier)
 
 if (can_run_mcbette()) {
 
