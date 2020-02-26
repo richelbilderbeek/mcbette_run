@@ -3,9 +3,6 @@ library(beautier)
 
 if (can_run_mcbette()) {
 
-  testit::assert(beastier::is_beast2_installed())
-  testit::assert(mauricer::is_beast2_ns_pkg_installed())
-
   fasta_filename <- "my_alignment.fas"
   # mcbette will check if FASTA file exists
 
