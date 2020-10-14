@@ -8,6 +8,7 @@ r_packages:
   - txtplot
 
 r_github_packages:
+  - ropensci/beautier
   - ropensci/beastier
   - ropensci/babette
   - ropensci/mcbette
