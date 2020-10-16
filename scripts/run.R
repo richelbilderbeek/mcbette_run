@@ -3,7 +3,9 @@ library(beautier)
 
 if (can_run_mcbette()) {
 
-  fasta_filename <- "my_alignment.fas"
+
+  fasta_filename <- system.file("extdata", "primates.fas", package = "mcbette")
+  fasta_filename <- system.file("extdata", "simple.fas", package = "mcbette")
   # mcbette will check if FASTA file exists
 
   # Create two inference models
@@ -16,6 +18,8 @@ if (can_run_mcbette()) {
     mcmc = create_ns_mcmc(epsilon = 1e7)
   )
   inference_models <- list(inference_model_1, inference_model_2)
-
-  interpret_marg_lik_estimates(marg_liks)
+  mcbette::est_marg_liks(
+    fasta_filename = fasta_filename,
+    inference_models = inference_models
+  )
 }
