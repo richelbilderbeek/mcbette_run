@@ -1,9 +1,9 @@
 # `mcbette_run`
 
-Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)
+Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.com)
 ---------|--------------------------------------------------------------------------------------------------------------------------------------------
-`master` |[![Build Status](https://travis-ci.org/ropensci/mcbette_run.svg?branch=master)](https://travis-ci.org/ropensci/mcbette_run) 
-`develop`|[![Build Status](https://travis-ci.org/ropensci/mcbette_run.svg?branch=develop)](https://travis-ci.org/ropensci/mcbette_run)
+`master` |[![Build Status](https://travis-ci.com/ropensci/mcbette_run.svg?branch=master)](https://travis-ci.com/ropensci/mcbette_run) 
+`develop`|[![Build Status](https://travis-ci.com/ropensci/mcbette_run.svg?branch=develop)](https://travis-ci.com/ropensci/mcbette_run)
 
 Run a Bayesian phylogenetic model comparison using [mcbette](https://github.com/ropensci/mcbette).
 
@@ -170,13 +170,13 @@ If your alignment needs more time, one can:
 
 ## Package dependencies
 
-Package                                         |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)                                                 |[![Codecov logo](pics/Codecov.png)](https://www.codecov.io)
+Package                                         |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.com)                                                 |[![Codecov logo](pics/Codecov.png)](https://www.codecov.io)
 ------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------
-[babette](https://github.com/ropensci/babette)  |[![Build Status](https://travis-ci.org/ropensci/babette.svg?branch=master)](https://travis-ci.org/ropensci/babette)  |[![codecov.io](https://codecov.io/github/ropensci/babette/coverage.svg?branch=master)](https://codecov.io/github/ropensci/babette/branch/master)
-[beautier](https://github.com/ropensci/beautier)|[![Build Status](https://travis-ci.org/ropensci/beautier.svg?branch=master)](https://travis-ci.org/ropensci/beautier)|[![codecov.io](https://codecov.io/github/ropensci/beautier/coverage.svg?branch=master)](https://codecov.io/github/ropensci/beautier/branch/master)
-[beastier](https://github.com/ropensci/beastier)|[![Build Status](https://travis-ci.org/ropensci/beastier.svg?branch=master)](https://travis-ci.org/ropensci/beastier)|[![codecov.io](https://codecov.io/github/ropensci/beastier/coverage.svg?branch=master)](https://codecov.io/github/ropensci/beastier/branch/master)
-[mauricer](https://github.com/ropensci/mauricer)|[![Build Status](https://travis-ci.org/ropensci/mauricer.svg?branch=master)](https://travis-ci.org/ropensci/mauricer)|[![codecov.io](https://codecov.io/github/ropensci/mauricer/coverage.svg?branch=master)](https://codecov.io/github/ropensci/mauricer/branch/master)
-[tracerer](https://github.com/ropensci/tracerer)|[![Build Status](https://travis-ci.org/ropensci/tracerer.svg?branch=master)](https://travis-ci.org/ropensci/tracerer)|[![codecov.io](https://codecov.io/github/ropensci/tracerer/coverage.svg?branch=master)](https://codecov.io/github/ropensci/tracerer/branch/master)
+[babette](https://github.com/ropensci/babette)  |[![Build Status](https://travis-ci.com/ropensci/babette.svg?branch=master)](https://travis-ci.com/ropensci/babette)  |[![codecov.io](https://codecov.io/github/ropensci/babette/coverage.svg?branch=master)](https://codecov.io/github/ropensci/babette/branch/master)
+[beautier](https://github.com/ropensci/beautier)|[![Build Status](https://travis-ci.com/ropensci/beautier.svg?branch=master)](https://travis-ci.com/ropensci/beautier)|[![codecov.io](https://codecov.io/github/ropensci/beautier/coverage.svg?branch=master)](https://codecov.io/github/ropensci/beautier/branch/master)
+[beastier](https://github.com/ropensci/beastier)|[![Build Status](https://travis-ci.com/ropensci/beastier.svg?branch=master)](https://travis-ci.com/ropensci/beastier)|[![codecov.io](https://codecov.io/github/ropensci/beastier/coverage.svg?branch=master)](https://codecov.io/github/ropensci/beastier/branch/master)
+[mauricer](https://github.com/ropensci/mauricer)|[![Build Status](https://travis-ci.com/ropensci/mauricer.svg?branch=master)](https://travis-ci.com/ropensci/mauricer)|[![codecov.io](https://codecov.io/github/ropensci/mauricer/coverage.svg?branch=master)](https://codecov.io/github/ropensci/mauricer/branch/master)
+[tracerer](https://github.com/ropensci/tracerer)|[![Build Status](https://travis-ci.com/ropensci/tracerer.svg?branch=master)](https://travis-ci.com/ropensci/tracerer)|[![codecov.io](https://codecov.io/github/ropensci/tracerer/coverage.svg?branch=master)](https://codecov.io/github/ropensci/tracerer/branch/master)
 
 ## Windows
 
